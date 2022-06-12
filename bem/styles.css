@@ -1,0 +1,16 @@
+.menu__button{
+   
+    background-color: lightsteelblue;
+    height: 50px;
+    width: 50px;
+/*
+    . <-- used when we refer to a class
+    class title needs to match what we referred to it as in html
+*/
+}
+
+.menu__button--red{
+    /* BEM naming convention;element added --red
+    order matters - what is last will supersede previous*/
+    background-color: red;
+}
